@@ -1,0 +1,584 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "open sans";
+}
+.blockHouseLiquidityContainer {
+  background-color: #1e1e1e;
+  overflow-x: hidden;
+  background-image: url("./Images/liquidity/blockHouseBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 120% !important;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.navBarHeader{
+  /* background: url("./Images/liquidity/headerNavBackground"); */
+  background: url("./Images/liquidity/headerNavBackground.png") !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.insidetopHeader {
+  margin-right: -28px;
+}
+.insidetopHeader > .siderBarNavItemRightBox {
+  margin-left: 18px;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(60, 62, 75, 0.24);
+}
+
+.topHeaderWalletBox {
+  width: 172px !important;
+  padding-top: 7px;
+}
+.topHeaderWalletBox span {
+  display: flex;
+  justify-content: space-between;
+}
+.topHeaderWalletIcon {
+  padding-left: 10px;
+}
+.topHeaderWalletDropdown {
+  padding-right: 10px;
+}
+.topHeaderWalletBox > span > span {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  position: relative;
+  top: 1px;
+}
+
+.siderBarLogo {
+  width: 162px;
+  height: 36px;
+  position: relative;
+  left: -60px;
+}
+.sideBarBoxItemsItemActive {
+  background-color: rgba(255, 255, 255, 0.04) !important;
+  /* border-top-right-radius: 8px !important; */
+}
+.sideBarBoxItemsItem {
+  margin-top: 0px;
+  width: 100%;
+  max-height: 52px !important;
+  min-height: 52px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+.tableHeadingTxt {
+  letter-spacing: -1px;
+  font-size: 30px !important;
+  color: white;
+}
+
+.mainContainerSearchDiv span {
+  position: relative;
+  top: 35px;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+.mainContainerSearchDiv input {
+  width: 100%;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 6px;
+  border: none;
+  padding-left: 40px;
+  color: rgba(255, 255, 255, 0.6);
+  outline: none;
+}
+
+.liquidityTableLastRowFlexLeftItem span {
+  position: relative;
+  top: -6px;
+  height: 18px;
+}
+.width10Percent {
+  width: 10% !important;
+}
+.customTxtForLiqTable {
+  font-size: 15px;
+  text-align: left;
+  margin: 0;
+  font-weight: bold;
+}
+
+.rightSearchBoxStructured {
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 6px;
+  color: white;
+  height: 38px;
+  margin-top: 27px !important;
+  padding-top: 6px;
+  padding-left: 16px;
+  font-weight: bold;
+  width: 100%;
+  text-align: start !important;
+}
+.rightSearchBoxStructured img {
+  position: relative;
+  right: -12px;
+  top: 3px;
+}
+
+.liquidityTokenDropdownBox {
+  width: 40px;
+  height: 40px;
+  border: double 1.7px transparent;
+  border-radius: 6px;
+  background-image: linear-gradient(95.25deg, #1b1d2e, #2a2e3a),
+    linear-gradient(90deg, #141eed, #6094eb);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  margin-top: -10px;
+}
+.liquidityTokenDropdownBox img {
+  padding-top: 8px;
+  padding-left: 8px;
+}
+.highcharts-credits {
+  display: none;
+}
+.absoluteBoxOfHomeChartPie {
+  position: relative;
+  left: "0";
+  top: "0";
+  text-align: center;
+  /* margin-top: -75px; */
+  margin-top: -115px;
+  margin-left: -5px;
+}
+
+/* Liquidity */
+.boxActiveLiqudityRow {
+  position: absolute;
+  /* width: 79%; */
+  width: 82.5%;
+  margin-left: -33px;
+  margin-top: -81px;
+  height: 246px;
+  border-radius: 14px;
+  background-color: rgba(255, 255, 255, 0.04);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+.tableFooter button {
+  /* color: white !important; */
+}
+.css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar {
+  padding-left: 15px !important;
+}
+.tradinghistoryBlotterpopup {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  /* background-color: rgba(153, 153, 153, 0.2); */
+  width: 100%;
+  top: 0px;
+  height: 100%;
+  z-index: 9999 !important;
+}
+.tradinghistoryBlotterpopupSec {
+  width: 70%;
+  background-color: #14151f;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  /* height: 91%; */
+  height: 850px;
+  /* overflow-y: scroll; */
+  transform: translate(-50%, 3%);
+  border-radius: 20px !important;
+  padding: 50px;
+  -webkit-box-shadow: 0 0 10px #fff;
+  box-shadow: 0 0 10px #fff;
+}
+.tradingHistoryPopupBtns {
+  color: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 20px;
+}
+
+.compAucTableHeight * {
+  padding-top: 8.9px !important;
+  padding-bottom: 8.9px !important;
+}
+.dealsInput::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: white;
+}
+.dealsInput:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: white;
+  opacity: 1;
+}
+.dealsInput::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: white;
+  opacity: 1;
+}
+.dealsInput:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+@media screen and (max-width: 2720px) {
+  .boxActiveLiqudityRow {
+    width: 81.5%;
+  }
+}
+@media screen and (max-width: 2470px) {
+  .boxActiveLiqudityRow {
+    width: 80.5%;
+  }
+}
+@media screen and (max-width: 2300px) {
+  .boxActiveLiqudityRow {
+    width: 79.5%;
+  }
+}
+@media screen and (max-width: 2100px) {
+  .boxActiveLiqudityRow {
+    width: 78.3%;
+  }
+}
+@media screen and (min-height: 800px) {
+  .tradinghistoryBlotterpopup {
+    height: 105vh !important;
+  }
+}
+@media screen and (min-height: 970px) {
+  .blockHouseLiquidityContainer {
+    height: 100vh !important;
+  }
+}
+@media screen and (max-width: 1950px) {
+  .tableFooterWidth {
+    width: 74% !important;
+  }
+  .boxActiveLiqudityRow {
+    width: 76.5%;
+  }
+}
+@media screen and (max-width: 1800px) {
+  .tableFooterWidth {
+    width: 73% !important;
+  }
+  .boxActiveLiqudityRow {
+    width: 75.5%;
+  }
+}
+@media screen and (max-width: 1684px) {
+  .inputSearchWidthMeida {
+    max-width: 71.5% !important;
+  }
+  .tableFooterWidth {
+    width: 72.5% !important;
+  }
+  .boxActiveLiqudityRow {
+    width: 74.5%;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .inputSearchWidthMeida {
+    flex: 0 0 68% !important;
+  }
+  .mainContainerSearchDiv2 {
+    flex: 0 0 10.5% !important;
+    max-width: 10.5% !important;
+  }
+  .mainContainerSearchDiv3 {
+    flex: 0 0 16.2% !important;
+    max-width: 16.2% !important;
+  }
+  .tableFooterWidth {
+    width: 71% !important;
+  }
+  .DealsTableIconBox {
+    width: 10% !important;
+  }
+  .compAuctionFirstRow > div:nth-child(1) {
+    min-width: 25%;
+  }
+  .compAuctionFirstRow > div:nth-child(2) {
+    max-width: 12.5%;
+  }
+  .compAuctionFirstRow > div:nth-child(3) {
+    max-width: 13.5%;
+  }
+  .compAuctionFirstRow > div:nth-child(4) {
+    max-width: 8%;
+  }
+  .compAuctionFirstRow > div:nth-child(5) {
+    max-width: 12.5%;
+  }
+  .compAuctionFirstRow > div:nth-child(6) {
+    max-width: 12.5%;
+  }
+  .compAuctionFirstRow > div:nth-child(7) {
+    min-width: 16.3%;
+  }
+}
+@media screen and (max-width: 1551px) {
+  .DealsTableIconBox img:nth-child(2) {
+    width: 42px !important;
+  }
+  .boxActiveLiqudityRow {
+    width: 72.8%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .inputSearchWidthMeida {
+    flex: 0 0 66% !important;
+  }
+  .mainContainerSearchDiv2 {
+    flex: 0 0 11% !important;
+    max-width: 11% !important;
+  }
+  .mainContainerSearchDiv3 {
+    flex: 0 0 17.3% !important;
+    max-width: 17.3% !important;
+  }
+  .tableFooterWidth {
+    width: 70% !important;
+  }
+  .dealsTableLastArrow {
+    left: 30px !important;
+  }
+}
+@media screen and (max-width: 1446px) {
+  .DealsTableIconBox img:nth-child(1) {
+    width: 39px !important;
+  }
+  .DealsTableIconBox img:nth-child(2) {
+    width: 41px !important;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .topStoriesHomeRow {
+    height: 32px !important;
+  }
+  .topStoriesHomeRowIst {
+    height: 45px !important;
+  }
+  .tableFooterWidth {
+    width: 69.5% !important;
+  }
+  .boxActiveLiqudityRow {
+    width: 71.5%;
+  }
+  .featuredAuctionBox > div:nth-child(1) > p:nth-child(1) {
+    font-size: 17px !important;
+  }
+  .featuredAuctionBox > div:nth-child(3) > div > p:nth-child(2) {
+    font-size: 14px !important;
+  }
+  .bidAuctionBox > p:nth-child(1) {
+    font-size: 18px !important;
+  }
+  .bidAuctionBox > p:nth-child(1) > span {
+    font-size: 11px !important;
+  }
+}
+
+@media screen and (max-width: 1408px) {
+  .inputSearchWidthMeida {
+    flex: 0 0 65% !important;
+  }
+  .rightSearchBoxStructured img {
+    right: -5px;
+    top: 7px;
+  }
+  .rightSearchBoxStructured {
+    font-size: 13px;
+    padding-top: 4px;
+  }
+  .dealsFooterWidth {
+    width: 68% !important;
+  }
+  .compAuctionFirstRow > div:nth-child(1) {
+    min-width: 28%;
+    white-space: nowrap;
+  }
+  .compAuctionFirstRow > div:nth-child(2) {
+    max-width: 12.5%;
+    white-space: nowrap;
+  }
+  .compAuctionFirstRow > div:nth-child(3) {
+    max-width: 13.5%;
+    white-space: nowrap;
+  }
+  .compAuctionFirstRow > div:nth-child(4) {
+    max-width: 8%;
+    white-space: nowrap;
+  }
+  .compAuctionFirstRow > div:nth-child(5) {
+    max-width: 12.5%;
+    white-space: nowrap;
+  }
+  .compAuctionFirstRow > div:nth-child(6) {
+    max-width: 10%;
+    white-space: nowrap;
+  }
+  .compAuctionFirstRow > div:nth-child(7) {
+    min-width: 1%;
+    white-space: nowrap;
+  }
+}
+@media screen and (max-width: 1555px) {
+  .liqudityTableIconBox {
+    width: 10% !important;
+  }
+}
+@media screen and (max-width: 1453px) {
+  .liqudityTableIconBox {
+    width: 11% !important;
+  }
+  .liquidityTableLastArrow {
+    left: 30px !important;
+  }
+}
+@media screen and (max-width: 1374px) {
+  .dealsTableLastArrow {
+    left: 20px !important;
+  }
+  .dealsFooterWidth {
+    width: 66.5% !important;
+  }
+  .boxActiveLiqudityRow {
+    width: 70.5%;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .DealsTableIconBox img:nth-child(1) {
+    width: 38px !important;
+  }
+  .DealsTableIconBox img:nth-child(2) {
+    width: 40px !important;
+  }
+}
+@media screen and (max-width: 1339px) {
+  .liqudityTableIconBox {
+    width: 12% !important;
+  }
+  .tableFooterWidth {
+    width: 68.5% !important;
+  }
+  .dealsFooterWidth {
+    width: 66% !important;
+  }
+}
+@media screen and (max-width: 1258px) {
+  .liqudityTableIconBox {
+    width: 14% !important;
+  }
+  .tableFooterWidth {
+    width: 69% !important;
+  }
+}
+
+/* landingPage */
+
+@media screen and (max-width: 600px) {
+  .AssetsTopIstContainer {
+    position: absolute;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 410px;
+  }
+  .AssetsTopIstContainer img {
+    width: 95% !important;
+    margin-top: -45px !important;
+  }
+  .assetsHeadingLifecycle {
+    padding-top: 45%;
+  }
+  .proofHeading {
+    font-size: 30px !important;
+    text-align: start !important;
+    line-height: 36px !important;
+    letter-spacing: -1px !important;
+    margin-top: -55px !important;
+    margin-bottom: -20px !important;
+  }
+  .wantAccessHeading {
+    margin-top: -50px !important;
+    font-size: 36px !important;
+  }
+  .accessBtnsSnd {
+    margin-top: 16px !important;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .accessBtns button {
+    width: 145px !important;
+  }
+  .wantAccessIstBtn {
+    width: 145px !important;
+  }
+  .footerCOntainer {
+    height: 150px;
+  }
+  .footerCOntainer img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .footerCOntainer svg {
+    margin-top: 65px;
+  }
+  .footerCOntainer p {
+    margin-top: 32px !important;
+  }
+  .productsForMob {
+    /* width: 90% !important;
+    max-width: 90% !important;
+    min-width: 90% !important;
+    padding-left: 100px !important; */
+  }
+  .productsForMob img {
+    position: absolute;
+    left: "50%";
+    transform: translate(-50%, 0);
+    top: 24px;
+  }
+  .productsForMob > div > p:first-of-type {
+    margin-top: 150px;
+    width: 100%;
+  }
+  .productsHeading {
+    font-size: 33px !important;
+  }
+  .productsHeadingSec {
+    width: 80% !important;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .assetsHeadingLifecycle {
+    padding-top: 25%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .assetsHeadingLifecycle {
+    padding-top: 10%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .assetsHeadingLifecycle {
+    padding-top: 0%;
+    margin-top: -35px !important;
+  }
+}
